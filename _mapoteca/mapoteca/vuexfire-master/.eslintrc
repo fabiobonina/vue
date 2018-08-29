@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "standard",
+    "plugin:ava/recommended"
+  ],
+    "plugins": ["html", "ava"],
+    "env": {
+      "amd": true
+    },
+    "rules": {
+      "no-new": 0,
+      "comma-dangle": ["error", "always-multiline"]
+    }
+}

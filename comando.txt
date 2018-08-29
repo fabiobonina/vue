@@ -1,0 +1,30 @@
+## COMANDO VUE ##
+vue >
+  Usage: vue <command> [options]
+  Commands:
+        init        generate a new project from a template
+        list        list available official templates
+        build       prototype a new project
+        help [cmd]  display help for [cmd]
+  Options:
+        -h, --help     output usage information
+        -V, --version  output the version number
+vue list > Available official templates:
+  ★  browserify - A full-featured Browserify + vueify setup with hot-reload, linting & unit testing.
+  ★  browserify-simple - A simple Browserify + vueify setup for quick prototyping.
+  ★  simple - The simplest possible Vue setup in a single HTML file
+  ★  webpack - A full-featured Webpack + vue-loader setup with hot reload, linting, testing & css extraction.
+  ★  webpack-simple - A simple Webpack + vue-loader setup for quick prototyping.
+vue init webpack my-project > Criar novo projeto
+vue init webpack-simple my-project > Criar novo projeto simples
+npm run dev > execultar o projeto
+npm install firebase vuefire --save
+npm install vue-material --save
+npm install vuex --save
+npm install firebase --save
+npm install vuefire --save
+npm install uuid mime-types
+pouchdb-server --port 5984
+npm install --save pouchdb
+npm install --save firebase vuex
+npm install --save axios
